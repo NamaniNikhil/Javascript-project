@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+  <title>About US</title>
+  <link rel="stylesheet" href="about_me.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar">
+    <h1 class="logo">F45</h1>
+    <!-- <img src="logo.png" alt="" class="logo-btn"> -->
+    <ul class="navlinks">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html#my-section">vision</a></li>
+        <li><a href="index.html#motivation">Motivation</a></li>
+        <li><a href="index.html#facilities">Facilities</a></li>
+        <li><a href="index.html#Reviews">Reviews</a></li>
+            <li><a href="programs.html#gotochart">Analytics</a></li>
+        <li><a href="About_me.html">About</a></li>
+        <li class="ctn"><a href="programs.html">Programs</a></li>
+        <!-- <li class="ctn"><a href="programs.html">Programs</a></li> -->
+    </ul>
+    <img src="menu-button.png" alt="" class="menu-btn">
+</nav>
+
+    <div class="wrapper">
+      <h1>About Us</h1>
+      <div class="team">
+        <div class="team_member">
+          <div class="team_img">
+            <img src="Surya.jpg" alt="Team_image">
+          </div>
+          <h3>Surya Teja Pidakala</h3>
+          <div> <a href="https://www.linkedin.com/in/suryatejapidakala" target="_blank"><img src="LinkedIn.png" alt="LinkedIn Icon"></a>
+          </div>
+          <p>I am a Masters student at University of South Florida in Business Analytics and Information Systems. I have
+            1.5 years of experience as a Quality Analyst back in India. We have designed a web-page for a fitness center
+            named F45 and my contribution towards the project is styling the webpage, choosing appropriate colors, font
+            sizes, etc </p>
+          
+        </div>
+  
+  
+        <div class="team_member">
+          <div class="team_img">
+            <img src="Teja.jpg" alt="Team_image">
+          </div>
+          <h3>Sai Teja Balusu</h3>
+          <div> <a href="https://www.linkedin.com/in/srisaitejabalusu/" target="_blank"><img src="LinkedIn.png" alt="LinkedIn Icon"></a>
+          </div>
+          <p>I am a Masters student at University of South Florida in Business Analytics and Information Systems. I have
+            worked as IT engineer Associate in Smart katalyst consulting private limited. For this project,I have worked
+            on About us page styling and structure.</p>
+            
+        </div>
+  
+  
+        <div class="team_member">
+          <div class="team_img">
+            <img src="Nikhil.jpg" alt="Team_image">
+          </div>
+          <h3>Nikhil Namani</h3>
+          <div> <a href="https://www.linkedin.com/in/nikhil-namani-942146169/" target="_blank"><img src="LinkedIn.png" alt="LinkedIn Icon"></a>
+          </div>
+          <p>I am a Masters student at University of South Florida in Business Analytics and Information Systems. I have
+            worked as a Software Engineer for 2 years in Oxane Patners. For this project, I have designed the structure
+            and layout for the homepage.</p>
+            
+        </div>
+  
+        <div class="team">
+          <div class="team_member">
+            <div class="team_img">
+              <img src="Lohitha.jpg" alt="Team_image">
+            </div>
+            <h3>Lohitha Anumolu</h3>
+            <div> <a href="https://www.linkedin.com/in/lohitha-anumolu-227b41bb/" target="_blank"><img src="LinkedIn.png" alt="LinkedIn Icon"></a>
+            </div>
+            <p>I am a Masters student at University of South Florida in Business Analytics and Information Systems. Over
+              the last four years, I have worked as a Software Developer at Accenture and as an Operations Analyst at
+              Amazon. For this project,I have worked on About us page styling and structure.</p>
+          </div>
+  
+          <div class="team">
+            <div class="team_member">
+              <div class="team_img">
+                <img src="Rahul.jpg" alt="Team_image">
+              </div>
+              <h3>Rahul Vemula</h3>
+              <div> <a href="https://www.linkedin.com/in/rahul-vemula-in/" target="_blank"><img src="LinkedIn.png" alt="LinkedIn Icon"></a>
+              </div>
+              <p>I am a Masters student at University of South Florida in Business Analytics and Information Systems. I
+                have worked as an operation Analyst in Optival Health Solutions Pvt Ltd in India. For this project, I
+                worked on designing and Content.</p>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script>
+     const menuBtn = document.querySelector('.menu-btn');
+  const navLinks = document.querySelector('.navlinks'); 
+  const headerContent = document.querySelector('.header-content');
+
+  const navBar = document.querySelector('.navbar');
+
+  menuBtn.addEventListener("click",()=>{
+    navLinks.classList.toggle('mobile-menu')
+    headerContent.classList.toggle('header-content-mobile-view');
+    navBar.classList.toggle('navBar-mobile-view')
+  })
+
+  </script>
+</body>
+
+</html>
